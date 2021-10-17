@@ -1,6 +1,6 @@
 {
   "name": "backendgeeks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "simpleNode": "ts-node-dev --respawn simpleNode.ts",
     "simpleExpress": "ts-node-dev --respawn simpleExpress.ts",
     "simpleKoa": "ts-node-dev --respawn simpleKoa.ts",
-    "simpleDB": "ts-node-dev --respawn simpleDB.ts",
-    "start": "ts-node-dev --respawn ./simpleDB.ts"
+    "simpleDB": "ts-node-dev --respawn simpleDb.ts",
+    "start": "ts-node-dev --respawn ./simpleDb.ts"
   },
   "author": "",
   "license": "ISC",
