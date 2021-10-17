@@ -19,4 +19,4 @@ app.use(async (ctx) => {
     ctx.response.body = result.rows;
 })
 
-app.listen(process.env.PORT, () => console.log("simple koa server is running in 3005"))
+app.listen(process.env.PORT || 3000, () => console.log("simple koa server is running in 3005"))
