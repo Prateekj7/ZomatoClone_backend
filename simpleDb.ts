@@ -7,7 +7,7 @@ dotenv.config();
 const pool = new Pool({
     connectionString: process.env.DATABASE_URL,
     ssl: {
-        rejectUnauthorized: false
+        rejectUnauthorized: false //even if ssl fails let it run the code.
     }
 });
 
