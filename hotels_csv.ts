@@ -2,9 +2,9 @@ import { Field, ObjectType } from "type-graphql";
 import { Entity, BaseEntity, Column, PrimaryGeneratedColumn } from "typeorm";
 
 
-@Entity({name:"hotels_csv"})
+@Entity()
 @ObjectType()
-export class Hotels_Csv extends BaseEntity{
+export class hotels_csv extends BaseEntity{
     @Field(() => String)
     @Column()
     name: string;

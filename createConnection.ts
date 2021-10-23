@@ -1,12 +1,12 @@
 import { ConnectionOptions, createConnection } from "typeorm";
-import { Hotels_Csv } from "./hotels_csv";
+import { hotels_csv } from "./hotels_csv";
 import * as dotenv from "dotenv";
 
 dotenv.config();
 
 createConnection(<ConnectionOptions>{
     url: process.env.DATABASE_URL,
-    entities: [Hotels_Csv],
+    entities: [hotels_csv],
     type: "postgres",
     extra: {
         ssl: {
