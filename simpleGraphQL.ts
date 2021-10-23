@@ -23,7 +23,7 @@ async function main(){
     app.use(cors());
     app.use(router.routes());
 
-    app.listen(3005, () => console.log("simple graphql server is running"));
+    app.listen(process.env.PORT, () => console.log("simple graphql server is running"));
 
 
 }
