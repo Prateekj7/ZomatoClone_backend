@@ -1,6 +1,6 @@
 {
   "name": "backendgeeks",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "simpleDB": "ts-node-dev --respawn simpleDb.ts",
     "simpleOrm": "ts-node-dev --respawn simpleOrm.ts",
     "simpleGraphQL": "ts-node-dev --respawn simpleGraphQL.ts",
-    "start": "ts-node-dev --respawn ./simpleOrm.ts"
+    "start": "ts-node-dev --respawn ./simpleGraphQL.ts"
   },
   "author": "",
   "license": "ISC",
