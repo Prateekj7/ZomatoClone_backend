@@ -4,7 +4,11 @@ import { Entity, BaseEntity, Column, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 @ObjectType()
+
 export class hotels_csv extends BaseEntity{
+
+
+
     @Field(() => String)
     @Column()
     name: string;
