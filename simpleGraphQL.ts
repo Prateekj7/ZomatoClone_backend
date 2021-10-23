@@ -21,7 +21,8 @@ async function main(){
     appoloServer.applyMiddleware({app})
 
     app.use(cors());
-    app.use(router.routes());
+    app.use(router.routes()).use(router.allowedMethods());
+
 
     app.listen(process.env.PORT, () => console.log("simple graphql server is running"));
 
