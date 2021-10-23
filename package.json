@@ -10,15 +10,13 @@
     "simpleKoa": "ts-node-dev --respawn simpleKoa.ts",
     "simpleDB": "ts-node-dev --respawn simpleDb.ts",
     "simpleOrm": "ts-node-dev --respawn simpleOrm.ts",
-
+    "simpleGraphQL": "ts-node-dev --respawn simpleGraphQL.ts",
     "start": "ts-node-dev --respawn ./simpleOrm.ts"
-
-
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@koa/cors": "^3.1.0",
     "@types/pg": "^8.6.0",
     "apollo-server": "^2.25.1",
     "apollo-server-koa": "^2.25.1",
